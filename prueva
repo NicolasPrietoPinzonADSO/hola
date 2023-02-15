@@ -1,0 +1,55 @@
+#14 hacer un programa que ingresando el costo de los medicamentos calcules el descuento y el precio final.
+#ESCRIBIR UN PROGRMA QUE SUME, RESTE, MULTIPLIQUE Y DIVIDA
+#OPERACION DESEADA
+print("Medicamentos en descuento")
+print("1. Acetaminofen")
+print("2. Ibuflash")
+print("3. Noraver")
+print("4. Noxpirin")
+opc = int(input("Ingrese el número de la opción "))
+#DECISIÓN DEL MEDICAMENTO
+#ENTRADA - ACETAMINOFEN XD 
+if opc == 1:
+  print("ha seleccionado Acetaminofen")
+  print("El valor del medicamento es de 1000 pesos")
+  prc=1000
+  des = prc * 0.1
+  prc_final = prc - des
+  print("Se ha aplicado el descuento de", des, "a su medicamento")
+  print("El precio con descuento de su medicamento es de",prc_final, "pesos")
+#SALIDA - PRECIO FINAL
+#ENTRADA - IBUFLASH
+if  opc == 2:
+  print("ha seleccionado Ibuflah")
+  print("El valor del medicamento es de 2600 pesos")
+  prc=2600
+  des = prc * 0.1
+  prc_final = prc - des
+  print("Se ha aplicado el descuento de", des, "a su medicamento")
+  print("El precio con descuento de su medicamento es de",prc_final, "pesos")
+#SALIDA - PRECIO FINAL
+#ENTRADA - NORAVER   
+if  opc == 3:
+  print("ha seleccionado Noraver")
+  print("El valor del medicamento es de 1600 pesos")
+  prc=1600
+  des = prc * 0.1
+  prc_final = prc - des
+  print("Se ha aplicado el descuento de", des, "a su medicamento")
+  print("El precio con descuento de su medicamento es de",prc_final, "pesos")
+#SALIDA - PRECIO FINAL
+#ENTRADA - NOXPIRIN A LOS SINTOMAS DE LA GRIPA LES PONE FIN :D
+if  opc == 4:
+  print("ha seleccionado Noxpirin")
+  print("El valor del medicamento es de 2400 pesos")
+  prc=2400
+  des = prc * 0.1
+  prc_final = prc - des
+  print("Se ha aplicado el descuento de", des, "a su medicamento")
+  print("El precio con descuento de su medicamento es de",prc_final, "pesos")
+#SALIDA - PRECIO FINAL
+#ENTRADA NO VALIDA
+if opc > 4:
+  print("No selecciono una opción valida")
+#SALIDA - SELECCIÓN NO VALIDA 
+
